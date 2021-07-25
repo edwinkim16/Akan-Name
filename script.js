@@ -23,7 +23,7 @@ function akanName(){
    var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
    var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-   //Find male akan name form dayofbirth
+   //Find male akan name fromm dayofbirth
 
    if (document.getElementById("male").checked && (getdate != "")) {
 
@@ -32,4 +32,14 @@ function akanName(){
      male[dayofbirth] + "</strong>";
 
     }
+
+    //find female akan name form day of birth
+
+    else if(document.getElementById("female").checked && (getdate != "")) {
+
+        document.getElementById("yourname").innerHTML = 
+         "According to your gender, your Akan name is: " + "<strong>" +
+         female[dayofbirth] + "</strong>";
+
+        }
 }
