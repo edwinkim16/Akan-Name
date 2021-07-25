@@ -14,6 +14,13 @@ function akanName(){
    }
 
    //get day of the date
+
    var date = new Date(getdate);
    var dayofbirth = date.getDay();
+
+   //store akan names in Arrays
+
+   var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+   var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
 }
