@@ -42,4 +42,12 @@ function akanName(){
          female[dayofbirth] + "</strong>";
 
         }
+    // warning if none button is selected    
+
+    else if(!document.getElementById("female").checked && !document.getElementById("male").checked) {
+
+        document.getElementById("warning").innerHTML = 
+        "*Select your gender";
+        
+    }
 }
