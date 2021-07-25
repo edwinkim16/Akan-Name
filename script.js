@@ -12,4 +12,8 @@ function akanName(){
         document.getElementById("enterDate").innerHTML = "*Date field required"
         
    }
+
+   //get day of the date
+   var date = new Date(getdate);
+   var dayofbirth = date.getDay();
 }
