@@ -23,4 +23,13 @@ function akanName(){
    var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
    var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
+   //Find male akan name form dayofbirth
+
+   if (document.getElementById("male").checked && (getdate != "")) {
+
+    document.getElementById("yourname").innerHTML =
+     "According to your gender, your Akan name is: " + "<strong>" +
+     male[dayofbirth] + "</strong>";
+
+    }
 }
